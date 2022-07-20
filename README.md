@@ -1,8 +1,8 @@
 
-# Who will Leave the Job?
+# Who will Leave a Job?
 
 <p align="justify">
-Who will leave the job is a machine learning project which predicts who will not accept the job or who will not be eligible for the job by considering a few trends of the intern during the training process. 
+Who will leave a job is a machine learning project which predicts who will not accept the job or who will not be eligible for the job by considering a few trends of the intern during the training process. 
 </p>
 
 ## Table of Content
