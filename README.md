@@ -9,7 +9,7 @@ Who will leave a job is a machine learning project which predicts who will not a
 
 * [About The Project](#1)
 * [About Data](#2)
-* [Methodlogy](#3)
+* [Methodology](#3)
 * [Results](#4)
 * [Deployment](#5)
 * [Reference](#6)
