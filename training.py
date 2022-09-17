@@ -18,10 +18,10 @@ def run(fold, MODEL_NAME):
 
     model = model_dispatcher.get_model(MODEL_NAME)
 
-    X_train = df_train.drop(['kfold', config.TARGET_VARIABLE], axis = 1)
+    X_train = df_train.drop(['kfold', 'enrollee_id', config.TARGET_VARIABLE], axis = 1)
     y_train = df_train[config.TARGET_VARIABLE]
-
-    X_val = df_val.drop(['kfold', config.TARGET_VARIABLE], axis = 1)
+    
+    X_val = df_val.drop(['kfold', 'enrollee_id', config.TARGET_VARIABLE], axis = 1)
     y_val = df_val[config.TARGET_VARIABLE]
     
     model.fit(X_train, y_train)
